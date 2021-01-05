@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: argocd
 
 bases:
-- ../../base
+- github.com/85matthew/argocd/argocd-operator/base
 - github.com/redhat-canada-gitops/catalog/installplan-approver/base
 
 resources:
