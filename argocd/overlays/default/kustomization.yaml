@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: argocd
 
 bases:
-- ../../base
+- github.com/85matthew/argocd/argocd/base
 
 resources:
 - cluster-role-binding.yaml
